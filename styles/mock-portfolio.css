@@ -1,3 +1,15 @@
+@media (max-width: 320px) {
+  .about-header {
+    font-size: large;
+  }
+  .mail-box {
+    font-size: medium;
+  }
+  .email-link {
+    font-size: small;
+  }
+}
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -14,7 +26,7 @@ h3 {
   margin: 0;
 }
 
-h1 {
+.about-header {
   font-size: 96px;
 }
 
